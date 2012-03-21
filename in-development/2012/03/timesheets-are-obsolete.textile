@@ -1,0 +1,64 @@
+h1. Time sheets are Obsolete
+
+Or: I don't want my team spending time filling out time sheets instead of producing value for the organization.
+
+
+Ah, time sheets...if you've filled them out, what is your impression of them?
+
+Financial analysis is vital for your organization.  The break down of costs: broken down by project, client, department is vital for understanding your business.
+
+Time sheets.
+
+Most start ups don't have the data to do this analysis.  The common, default reaction is to introduce detailed time tracking.  Then when the categories are not detailed enough, add more categories.
+
+What does that do to your team who has to fill out the time sheets?  When do they do it?  In the past, I've seen that deferred by people for as long as possible - developers understand that they're only creating value if they're working on the product.  Filling out a time sheet creates no value.  It allows it to be measured, certainly, but it creates no value for the organization.
+
+
+Funny thing happened at my current start up yesterday...we are not using any time tracking tool and yet, somehow, our financial guy handed me a detailed break down of my department's projects, expenses and efforts.
+
+Where did _that_ come from?
+
+
+I've become a believer in Agile development processes for the problem domain's my startup is tackling.  I learned what I know about Agile from the awesome team I worked with at the Philadelphia office of Algorithmics, specifically by being mentored by: Aaron Feng, Rob Corigan and Anthony Palumbi.
+
+That team used simple, cheap, 3x5 index cards to track tasks.  At the beginning of a sprint, they would do task break down, written on cards with a point estimate.  As those cards were completed, they would be marked off as done.  At the end of the sprint (at the end of the week), the cards could be reviewed and some metrics could be created off of the cards.
+
+At my current startup, we've adopted the same process for tracking tasks.  On the front of the cards, we've been tracking several data points:
+
+* task name or very brief description - at most a sentence
+* project name
+* who the task is for (which department, or which consumer facing application)
+* which back-end service or system the task is part of
+* level of effort points (relative to tasks we've completed in the past) [1]
+* initials of the person who wrote the card (so we know who to ask questions of)
+* initials of the person/pair who implemented the task
+* initials of the person who accepted the task
+
+On the back:
+* any design or implementation notes that are relevant to the task
+* acceptance criteria for 'done'
+* a 'work log':
+  * the date the card was created
+  * the date/time the task was begun
+  * the date/time the task was development complete
+  * the date/time the task was accepted
+
+We don't always live up to tracking all of this, but we try to.  
+
+Doing each of these has extremely low incremental cost.  It takes a few seconds to write up a card or to jot down notes.  If a card has to be re-written, it's also very easy.
+
+The data on these cards already had the information that our finance guy needed for his analysis.  He had to take the time to do a bit of review and data-entry based on the cards, but he could.  And he did.
+
+That break down is invaluable to us to help us in resource planning and assigning costs to the proper places. 
+
+And it fell out of our process for free (almost).
+
+
+Kyle
+
+
+[1] I've found that attempting to guess at how many hours a task will take hasn't worked out well.  The estimates are inaccurate partly because there are typically unknowns implicit in the task (unexplained details, misunderstood requirements, etc), but also because I have found that I can't actually predict the future.  The best method I've ever seen has come from Agile: estimate a task based on it's relative effort compared to a task you've done in the past.  Pick a scale-less numeric scale.  Think of the simplest task you have successfully completed in the past.  That's a 1.  Now estimate your next task as some multiple of that 1 pointer.  Is it 2x, 4x?  More?  On my team if we're estimating something as an 8 or more then it's a sign that we need to break it down more - and if we can't break it down, then that's absolutely a sign that it's not well understood.  Either we don't understand what the problem is to be solved, or we don't understand how to get there.
+
+
+
+
